@@ -7,6 +7,7 @@ import StudentList from './components/StudentList';
 import RandomNumber from './components/RandomNumber';
 import Title from './components/Title';
 import {Button} from './components/Button';
+import MantineDev from './components/maintine'
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
     <DynamicComponent />
     <StudentList students={students}/>
     <Button btnText='Click Me' />
+
+    <MantineDev />
+
+
     
 
 
